@@ -6,30 +6,30 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="./result.html" method="get">
+    <form action="./result.html" method="get" center>
         <fieldset>
             <legend>A/S 제출 양식</legend>
             <div>
-                <label for="username">아이디:</label>
-                <input type="text" name="username" placeholder="ID" required>
+                <label for="userid">아이디:</label>
+                <input type="text" name="userid" placeholder="아이디" required>
             </div>
             <div>
                 <label for="password">비밀번호:</label>
-                <input type="password" name="password" placeholder="PW" autocomplete="on" required>
+                <input type="password" name="password" placeholder="패스워드" autocomplete="on" required>
             </div>
             <div>
                 <label for="age">나이:</label>
                 <input type="number" name="age" min="0" max="100" step="10" autocomplete="off">
-            </div>
-            <label for="summary">내용:</label>
+            </div><br>
+            <label for="summary">내용:</label><br>
             <textarea name="summary" cols="30" rows="10"></textarea>
-            <div>
+            <div><br>
                 <select name="type">
                     <option value="T_AS_1">환불</option>
                     <option value="T_AS_2">고장신고</option>
                     <option value="T_AS_3">기타</option>
                 </select>
-            </div>
+            </div><br>
             <div>
                 <input type="checkbox" name="type_2_1" value="1day">
                 <label for="type_2">1일 이내</label>
@@ -37,14 +37,14 @@
                 <label for="type_2_2">1주 이내</label>
                 <input type="checkbox" name="type_2_3" value="1month">
                 <label for="type_2_3">1달 이내</label>
-            </div>
+            </div><br>
             
             <div>
-                <input type="radio" name="type_3_1" value="emergency">
-                <label for="type_3_1">긴급</label>
                 <input type="radio" name="type_3_2" value="normal" checked>
                 <label for="type_3_2">일반</label>
-            </div>
+                <input type="radio" name="type_3_1" value="emergency">
+                <label for="type_3_1">긴급</label>
+            </div><br>
 
             <div>
                 <button type="submit">제출</button>
