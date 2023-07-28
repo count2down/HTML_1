@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 한번에 생성 div>ul>li 자식요소-->
+    <div>
+        <ul>
+            <li></li>
+        </ul>
+    </div>
+
+    <!-- 형제요소 p+span 같은 라인에 생성-->
+    <div>
+        <p></p>
+        <span></span>
+    </div>
+
+    <!-- 상위 계층으로 이동 div>ul>li^p+a 동시에 사용가능-->
+    <div>
+        <ul>
+            <li></li>
+        </ul>
+        <p></p>
+        <a href=""></a>
+    </div>
+
+    <!-- 반복 div>ul>li*5 -->
+    <div>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <!-- 그룹 div>ul>li+footer -->
+    <div>
+        <ul>
+            <li></li>
+            <footer></footer>
+        </ul>
+    </div>
+
+
+
+
+</body>
+</html>

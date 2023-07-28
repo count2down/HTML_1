@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sing_up.CSS">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <form action="target_page.html" method="get">
+        <h1>회원가입</h1>
+        <div>
+            <label for="username" required>사용자명:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div>
+            <label for="email" required>이 메 일:</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div>
+            <label for="password" required>비밀번호:</label>
+            <input type="password" name="password" id="password" required>
+            <label for="confirm-password" required>비밀번호 확인:</label>
+            <input type="password" name="confirm-password" id="confirm-password" required>
+        </div>
+        <div>
+            <label for="hobby">취미</label>
+            <input type="checkbox" id="hobby1" name="hobby1" value="read">
+            <label for="hobby1">독서</label>
+            <input type="checkbox" id="hobby2" name="hobby2" value="climbs">
+            <label for="hobby2">등산</label>
+            <input type="checkbox" id="hobby3" name="hobby3" value="cook">
+            <label for="hobby3">요리</label>
+        </div>
+        <div>
+            <label for="city">도시</label>
+            <select name="city" id="city">
+                <option value="Seoul">서울</option>
+                <option value="Newyork">뉴욕</option>
+                <option value="Dokyo">도쿄</option>
+                <option value="London">런던</option>
+            </select>
+        </div>
+        <div>
+            <label for="birth">생년월일</label>
+            <select name="birth" id="birth">
+                <option value="">연</option>
+                <option value="2000">2000</option>
+                <option value="1999">1999</option>
+            </select>
+            <select name="birth" id="birth">
+                <option value="">일</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+        <div>
+            <label for="terms">이용 약관에 동의합니다.</label>
+            <input type="checkbox" name="terms" id="term" value="terms">
+        </div>
+        <div>
+            <input type="submit" class="btn" value="제출">
+        </div>
+    </form>
+</body>
+
+</html>

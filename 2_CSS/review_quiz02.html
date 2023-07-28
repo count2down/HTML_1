@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a {
+            text-decoration: none;
+            font-size: 16px;
+            color: white;
+        }
+
+        li {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .MENU {
+            width: auto;
+        }
+
+        .MENU>li {
+            background-color: skyblue;
+            width: 20%;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        .sub {
+            height: 0;
+            overflow: hidden;
+        }
+
+        sub>li {
+            line-height: 50px;
+        }
+
+        /* hover */
+        .MENU>li:hover {
+            background-color: blue;
+            transition-duration: 0.5s;
+        }
+
+        .MENU>li:hover .sub {
+            height: 200px;
+            transition-duration: 1s;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="MENU">
+        <li>
+            <a href="">MENU1</a>
+            <ul class="sub">
+                <li><a href="">submenu01</a></li>
+                <li><a href="">submenu02</a></li>
+                <li><a href="">submenu03</a></li>
+                <li><a href="">submenu04</a></li>
+                <li><a href="">submenu05</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="">MENU2</a>
+            <ul class="sub">
+                <li><a href="">submenu01</a></li>
+                <li><a href="">submenu02</a></li>
+                <li><a href="">submenu03</a></li>
+                <li><a href="">submenu04</a></li>
+                <li><a href="">submenu05</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="">MENU3</a>
+            <ul class="sub">
+                <li><a href="">submenu01</a></li>
+                <li><a href="">submenu02</a></li>
+                <li><a href="">submenu03</a></li>
+                <li><a href="">submenu04</a></li>
+                <li><a href="">submenu05</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="">MENU4</a>
+            <ul class="sub">
+                <li><a href="">submenu01</a></li>
+                <li><a href="">submenu02</a></li>
+                <li><a href="">submenu03</a></li>
+                <li><a href="">submenu04</a></li>
+                <li><a href="">submenu05</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="">MENU5</a>
+            <ul class="sub">
+                <li><a href="">submenu01</a></li>
+                <li><a href="">submenu02</a></li>
+                <li><a href="">submenu03</a></li>
+                <li><a href="">submenu04</a></li>
+                <li><a href="">submenu05</a></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
+</html>

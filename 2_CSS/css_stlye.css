@@ -1,0 +1,29 @@
+
+/* 스타일시트 : 국토면적 테이블 관련 스타일
+updata : 23.6.22
+*/
+
+/*span {
+    color: blue;
+    font-size: 24px;
+}*/
+
+/*주석 방법*/
+
+.first{
+    color: red;
+    font-size: 24px;
+}
+
+#second{
+    color: blue;
+    font-size: 30px;
+}
+
+p, span{
+    color: green;
+    font-size: 50px;
+}
+div>p{
+    color: yellow;
+}

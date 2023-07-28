@@ -1,0 +1,70 @@
+/* 전체적인 뒷배경 */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(48, 44, 44);
+}
+
+/* 색상 */
+header,
+nav,
+section,
+aside,
+footer {
+    background-color: gray;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+#header2,
+article,
+#footer2 {
+    background-color: rgb(157, 165, 163);
+    border-radius: 10px;
+    margin: 15px;
+}
+
+/* 최상단 */
+#header1 {
+    padding: 60px;
+}
+
+nav {
+    width: 18%;
+    height: 1000px;
+    float: left;
+}
+
+section {
+    display: block;
+    height: 1000px;
+    width: 61.5%;
+    float: left;
+}
+
+aside {
+    height: 1000px;
+    width: 18%;
+    float: right;
+}
+
+#footer1 {
+    padding: 60px;
+    display: inline-block;
+    width: 100%;
+}
+
+/* section 안쪽 */
+#header2 {
+    margin-top: 100px;
+    padding: 70px;
+}
+
+article {
+    padding: 270px;
+}
+
+#footer2 {
+    padding: 70px;
+}
